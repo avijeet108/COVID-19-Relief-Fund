@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="pc.jpg">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Sacramento&family=Sigmar+One&display=swap" rel="stylesheet">
+  <title>COVID-19 Relief Fund</title>
+</head>
+
+
+<body class="background">
+
+  <script>
+    function validation()
+    {
+     var name=document.getElementById("name").value;
+     var email=document.getElementById("email").value;
+     var subject=document.getElementById("subject").value;
+     var message=document.getElementById("message").value;
+
+     if(name=="")
+     {
+       alert("Please Enter Name");
+     }
+     else if(email=="")
+     {
+       alert("Please Enter Email Id");
+     }
+     else if(subject=="")
+     {
+       alert("Please Enter subject");
+     }
+     else if(message=="")
+     {
+       alert("Please Write Message");
+     }
+     else
+     {
+       alert("Message Sent Successfully!!!");
+     }
+    }
+  </script>
+
+<div class="content">
+
+  <nav class="navbar" class="navbar navbar-light" style="background-color: #ffed99;">
+    <div class="white"><h1>COVID-19 Relief Fund</h1></div>
+    <ul class="nav-list">
+      <li><a href="index.html" class="n"><h5>Home</h5></a></li>
+      <li><a href="about.html" class="n"><h5>About</h5></a></li>
+      <li><a href="contact.html" class="n"><h5>Contact</h5></a></li>
+    </ul>
+  </nav>
+
+  <form>
+    <div class="container donate">
+      <br>
+    <label for="name" class="des">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your Name">
+      <br>
+    <label for="name" class="des">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your Email Address">
+      <br>
+    <label for="name" class="des">Subject:</label>
+    <input type="text" id="subject" name="subject" placeholder="Enter Subject">
+      <br>
+    <label for="name" class="des">Message:</label>
+    <textarea name="message" id="message" rows="2" placeholder="Enter Message"></textarea>
+      <br><br>
+      <center>
+        <button type="submit" value="submit" class="btn" onclick="validation()" >Click to Send Message</button>
+      </center>
+
+
+    </div>
+
+  </form>
+
+</div>
+
+<div class="bottom">
+  <center>
+  <p class="copy">© 2021 Kumar Avijeet</p>
+</center>
+</div>
+
+</body>
+</html>
