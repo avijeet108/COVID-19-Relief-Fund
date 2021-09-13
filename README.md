@@ -6,3 +6,5 @@ The task was to integrate a payment gateway in a simple website with a donate bu
 Techstack used - HTML,CSS,Javascript,Bootstrap
 
 Payment Gateway - Razorpay
+
+Website - https://avijeet108.github.io/COVID-19-Relief-Fund/
