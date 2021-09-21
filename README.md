@@ -4,8 +4,8 @@
 
 * The task was to integrate a payment gateway in a simple website with a donate button on the home page. The donate button will lead to a payment page where user can select the amount to be paid. On successful payment an invoice will be generated and an email will be sent to the user confirming the payment received.
 
-* Techstack used - HTML,CSS,Javascript,Bootstrap
+* **Techstack**: *HTML, CSS, Javascript, Bootstrap*
 
-* Payment Gateway - Razorpay
+* **Payment Gateway**: *Razorpay*
 
-* Website - https://avijeet108.github.io/COVID-19-Relief-Fund/
+* **Website** - https://avijeet108.github.io/COVID-19-Relief-Fund/
